@@ -1,34 +1,60 @@
 @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica-Normal.ttf');
+    src: url(fonts/helvetica-lt.ttf);
 }
 
 @font-face {
     font-family: 'Helvetica-Thin';
-    src: url('HelveticaLT35Thin.ttf');
+    src: url(fonts/helvetica-lt-35-thin.ttf);
 }
 
 body {
-    font-family: 'FreeSans';
-    color: black;
+    font-family: 'Helvetica';
+    color: #493729;
+    font-size: 16px;
 }
 
 h1 {
-    font-weight: normal;
-}
-
-h1 .prenom{
-    color: burlywood;
-}
-
-h1 .nom{
-    font-family: Helvetica-Thin;
-}
-
-h1, h2, h4 {
     text-transform: uppercase;
 }
 
-h5 + * {
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 + * {
     letter-spacing: 0.1rem;
 }
+
+header h1 {
+    font-weight: normal;
+    font-size: 3.8rem;
+}
+
+section h1 {
+    font-size: 1.7rem;
+}
+
+section h2 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+section h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.prenom{
+    color: #71a74f;
+}
+
+.nom{
+    font-family: Helvetica-Thin;
+}
+
+.moi {
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+
