@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', sans-serif;
     color: #493729;
     font-size: 16px;
 }
@@ -50,7 +50,7 @@ section h3 {
 }
 
 .nom{
-    font-family: Helvetica-Thin;
+    font-family: Helvetica-Thin, sans-serif;
 }
 
 .moi {
