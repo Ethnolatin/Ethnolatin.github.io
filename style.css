@@ -19,9 +19,6 @@ body {
     font-size: 16px;
 }
 
-div {
-    padding-top: 1rem;
-}
 
 h1 {
     margin: 4rem 0 0.8rem 0;
@@ -80,21 +77,22 @@ header h2:after {
 
 header img {
     border-radius: 110px;
+    height: 220px;
     border: 5px solid #81b75f;
 }
 
 header .droite {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     justify-content: center;
 }
 
 header .gauche {
     display: flex;
-    flex-direction: row;
-    padding-top: 3rem;
-    justify-content: center;
+    flex-direction: column;
+    padding-top: 3.5rem;
+    align-items: center;
 }
 
 main {
@@ -106,12 +104,17 @@ main image {
     height: 8rem;
 }
 
+main .droite {
+    margin-bottom: 4rem;
+}
+
 ul {
     margin-bottom: 0.5rem;
 }
 
 .bloc {
     width: 50%;
+    padding-top: 1rem;
 }
 
 .bloc h2 {
@@ -127,7 +130,6 @@ ul {
 
 .droite {
     width: 67%;
-    margin-bottom: 4rem;
 }
 
 .droite article {
@@ -160,13 +162,13 @@ ul {
 
 .gauche div {
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .gauche h1 {
     color: #71a74f;
     background-color: #493729;
-    margin: 3rem 0 0 0;
+    margin: 2.5rem 0 0 0;
     padding: 0.5rem 0;
     text-align: center;
 }
