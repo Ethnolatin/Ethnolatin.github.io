@@ -128,6 +128,15 @@ ul {
     padding-right: 1rem;
 }
 
+.cache {
+    position: absolute;
+    left: -1000rem;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 .droite {
     width: 67%;
 }
@@ -137,8 +146,8 @@ ul {
 }
 
 .droite .bloc p {
-    margin-block-start: 0.3rem;
-    margin-block-end: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 
 .droite p {
