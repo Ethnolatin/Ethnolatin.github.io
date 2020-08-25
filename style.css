@@ -24,6 +24,15 @@ h2 {
     border-bottom: 2px solid #71a74f;
 }
 
+.cache {
+    position: absolute;
+    left: -1000rem;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 h3 {
     margin: 2.4rem 0 0.6rem 0;
     text-transform: uppercase;
@@ -37,9 +46,50 @@ h4 {
     font-size: 1rem;
 }
 
+ul {
+    margin-bottom: 0.5rem;
+}
+
+.gauche {
+    width: 33%;
+    background-color: #71a74f;
+    display: flex;
+    flex-direction: column;
+}
+
+.droite {
+    width: 67%;
+}
+
+/* ======== HEADER ======== */
+
 header {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* -------- Header - Section gauche -------- */
+
+header .gauche {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+header img {
+    border-radius: 110px;
+    height: 220px;
+    border: 5px solid #81b75f;
+}
+
+/* -------- Header - Section droite -------- */
+
+header .droite {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    justify-content: center;
 }
 
 header h1 {
@@ -48,6 +98,14 @@ header h1 {
     font-size: 3.8rem;
     padding: 0 4rem;
     border: none;
+}
+
+.prenom {
+    color: #71a74f;
+}
+
+.nom{
+    font-family: Helvetica-Thin, sans-serif;
 }
 
 header h2 {
@@ -68,112 +126,14 @@ header h2:after {
     border-bottom: 2px solid #71a74f;
 }
 
-header img {
-    border-radius: 110px;
-    height: 220px;
-    border: 5px solid #81b75f;
-}
-
-header .droite {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2.5rem;
-    justify-content: center;
-}
-
-header .gauche {
-    display: flex;
-    flex-direction: column;
-    padding-top: 3.5rem;
-    align-items: center;
-}
+/* ======== MAIN ======== */
 
 main {
     display: flex;
     flex-wrap: wrap-reverse;
 }
 
-main image {
-    width: 8rem;
-    height: 8rem;
-}
-
-main .droite {
-    margin-bottom: 4rem;
-}
-
-ul {
-    margin-bottom: 0.5rem;
-}
-
-.bloc {
-    width: 50%;
-    padding-top: 1rem;
-}
-
-.bloc h3 {
-    margin: 0.5rem 0;
-    font-size: 1rem;
-}
-
-.cache {
-    position: absolute;
-    left: -1000rem;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-.droite {
-    width: 67%;
-}
-
-.droite article {
-    padding: 0 3rem 0 4rem;
-}
-
-.droite p {
-    margin: 0.6rem 0;
-}
-
-.droite .bloc p {
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
-}
-
-.element {
-    display: flex;
-}
-
-.info ul, .info p {
-    letter-spacing: 0.1rem;
-}
-
-.far, .periode .fas {
-    font-size: 1rem;
-    padding-right: 1rem;
-    color: #71a74f;
-}
-
-.fas {
-    color: #71a74f;
-    font-size: 2.2rem;
-    padding-right: 2rem;
-    vertical-align: middle;
-}
-
-.gauche {
-    width: 33%;
-    background-color: #71a74f;
-    display: flex;
-    flex-direction: column;
-}
-
-.gauche div {
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-}
+/* -------- Main - Section gauche -------- */
 
 .gauche h2 {
     color: #71a74f;
@@ -184,15 +144,20 @@ ul {
     text-align: center;
 }
 
+.gauche div {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
 .gauche p {
     padding-left: 3rem;
     padding-right: 3rem;
     margin-bottom: 0;
 }
 
-.info {
-    flex: 2;
-    padding: 0;
+.moi {
+    letter-spacing: 0.1rem;
+    text-align: justify;
 }
 
 .loisirs {
@@ -210,13 +175,29 @@ ul {
     border: 2px solid #493729;
 }
 
-.moi {
-    letter-spacing: 0.1rem;
-    text-align: justify;
+/* -------- Main - Section droite -------- */
+
+main .droite {
+    margin-bottom: 4rem;
 }
 
-.nom{
-    font-family: Helvetica-Thin, sans-serif;
+.droite article {
+    padding: 0 3rem 0 4rem;
+}
+
+.fas {
+    color: #71a74f;
+    font-size: 2.2rem;
+    padding-right: 2rem;
+    vertical-align: middle;
+}
+
+.droite p {
+    margin: 0.6rem 0;
+}
+
+.element {
+    display: flex;
 }
 
 .periode {
@@ -225,18 +206,44 @@ ul {
     font-weight: 500;
 }
 
+.periode .far {
+    font-size: 1rem;
+    padding-right: 1rem;
+    color: #71a74f;
+}
+
 .periode .fas {
     font-size: 0.5rem;
     padding: 0 1.25rem 0 0.25rem;
     color: #71a74f;
 }
 
-.prenom {
-    color: #71a74f;
-}
-
 .droite .tab {
     margin: 0 2rem;
+}
+
+.info {
+    flex: 2;
+    padding: 0;
+}
+
+.info ul, .info p {
+    letter-spacing: 0.1rem;
+}
+
+.bloc {
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.bloc h3 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.droite .bloc p {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 
 @media all and (max-width: 1200px)
