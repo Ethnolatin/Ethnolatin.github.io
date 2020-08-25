@@ -39,6 +39,7 @@ h4 {
 
 header {
     display: flex;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -247,18 +248,18 @@ ul {
 
 @media all and (max-width: 992px)
 {
-    main .gauche {
-        width: 100%;;
-    }
-
-    main .droite {
+    main .gauche, main .droite {
         width: 100%;
     }
 }
 
 @media all and (max-width: 768px)
 {
-   .element {
+    header .gauche, header .droite {
+        width: 100%;
+    }
+
+    .element {
        flex-direction: column;
-   }
+    }
 }
