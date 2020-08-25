@@ -15,7 +15,6 @@ body {
     color: #493729;
 }
 
-
 h2 {
     margin: 4rem 0 0.8rem 0;
     text-transform: uppercase;
@@ -36,10 +35,6 @@ h4 {
     margin: 0.6rem 0;
     font-weight: normal;
     font-size: 1rem;
-}
-
-.info ul, .info p {
-    letter-spacing: 0.1rem;
 }
 
 header {
@@ -120,12 +115,6 @@ ul {
     font-size: 1rem;
 }
 
-.bullet {
-    height: 1rem;
-    margin-top: 2rem;
-    padding-right: 1rem;
-}
-
 .cache {
     position: absolute;
     left: -1000rem;
@@ -154,6 +143,16 @@ ul {
 
 .element {
     display: flex;
+}
+
+.info ul, .info p {
+    letter-spacing: 0.1rem;
+}
+
+.far, .periode .fas {
+    font-size: 1rem;
+    padding-right: 1rem;
+    color: #71a74f;
 }
 
 .fas {
@@ -225,8 +224,18 @@ ul {
     font-weight: 500;
 }
 
-.prenom{
+.periode .fas {
+    font-size: 0.5rem;
+    padding: 0 1.25rem 0 0.25rem;
     color: #71a74f;
+}
+
+.prenom {
+    color: #71a74f;
+}
+
+.droite .tab {
+    margin: 0 2rem;
 }
 
 @media all and (max-width: 1200px)
@@ -249,11 +258,7 @@ ul {
 
 @media all and (max-width: 768px)
 {
-   .info {
-        width: 100%;
-    }
-
-    .periode {
-        width: calc(100% - 2rem);
-    }
+   .element {
+       flex-direction: column;
+   }
 }
