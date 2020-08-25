@@ -20,7 +20,7 @@ body {
 }
 
 
-h1 {
+h2 {
     margin: 4rem 0 0.8rem 0;
     text-transform: uppercase;
     font-size: 1.6rem;
@@ -29,20 +29,20 @@ h1 {
     border-bottom: 2px solid #71a74f;
 }
 
-h2 {
+h3 {
     margin: 2.4rem 0 0.6rem 0;
     text-transform: uppercase;
     font-size: 1.21rem;
     letter-spacing: 0.05rem;
 }
 
-h3 {
+h4 {
     margin: 0.6rem 0;
     font-weight: normal;
     font-size: 1rem;
 }
 
-h3 + * {
+.info ul, .info p {
     letter-spacing: 0.1rem;
 }
 
@@ -61,11 +61,12 @@ header h1 {
 header h2 {
     display: table;
     margin: 0.2rem 0;
+    border-bottom: 0;
+    padding: 0 4rem;
     text-transform: none;
     font-size: 1.6rem;
     line-height: 2.2rem;
     letter-spacing: 0.1rem;
-    padding: 0 4rem;
 }
 
 header h2:after {
@@ -117,7 +118,7 @@ ul {
     padding-top: 1rem;
 }
 
-.bloc h2 {
+.bloc h3 {
     margin: 0.5rem 0;
     font-size: 1rem;
 }
@@ -174,7 +175,7 @@ ul {
     padding-bottom: 0.5rem;
 }
 
-.gauche h1 {
+.gauche h2 {
     color: #71a74f;
     background-color: #493729;
     margin: 2.5rem 0 0 0;
