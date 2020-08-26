@@ -1,3 +1,5 @@
+/* ========== FONTS ========== */
+
 @font-face {
     font-family: 'Helvetica';
     src: url(fonts/helvetica-lt.ttf);
@@ -7,6 +9,8 @@
     font-family: 'Helvetica-Thin';
     src: url(fonts/helvetica-lt-35-thin.ttf);
 }
+
+/* ========== GENERAL ========== */
 
 body {
     width: 1200px;
@@ -61,7 +65,7 @@ ul {
     width: 67%;
 }
 
-/* ======== HEADER ======== */
+/* ========== HEADER ========== */
 
 header {
     display: flex;
@@ -126,7 +130,7 @@ header h2:after {
     border-bottom: 2px solid #71a74f;
 }
 
-/* ======== MAIN ======== */
+/* ========== MAIN ========== */
 
 main {
     display: flex;
@@ -192,10 +196,6 @@ main .droite {
     vertical-align: middle;
 }
 
-.droite p {
-    margin: 0.6rem 0;
-}
-
 .element {
     display: flex;
 }
@@ -231,6 +231,10 @@ main .droite {
     letter-spacing: 0.1rem;
 }
 
+.droite p {
+    margin: 0.6rem 0;
+}
+
 .bloc {
     width: 50%;
     padding-top: 1rem;
@@ -245,6 +249,8 @@ main .droite {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
 }
+
+/* ========== MEDIA QUERIES ========== */
 
 @media all and (max-width: 1200px)
 {
