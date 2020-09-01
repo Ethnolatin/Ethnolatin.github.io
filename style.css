@@ -28,15 +28,6 @@ h2 {
     border-bottom: 2px solid #71a74f;
 }
 
-.cache {
-    position: absolute;
-    left: -1000rem;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
 h3 {
     margin: 2.4rem 0 0.6rem 0;
     text-transform: uppercase;
@@ -273,11 +264,15 @@ main .droite {
 
 @media all and (max-width: 768px)
 {
-    header .gauche, header .droite {
+    header .gauche, header .droite, .bloc {
         width: 100%;
     }
 
-    .element {
-       flex-direction: column;
+    header h1, header h2, .droite article {
+        padding: 0 1.5rem;
     }
-}
+
+    .element {
+        flex-direction: column;
+     }
+ }
