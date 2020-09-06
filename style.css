@@ -16,7 +16,7 @@ body {
     width: 1200px;
     margin: auto;
     font-family: 'Helvetica', sans-serif;
-    color: #493729;
+    color: #4E342E;
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
     font-size: 1.6rem;
     letter-spacing: 0.05rem;
     padding-bottom: 0.8rem;
-    border-bottom: 2px solid #71a74f;
+    border-bottom: 2px solid #7CB342;
 }
 
 h3 {
@@ -47,7 +47,7 @@ ul {
 
 .gauche {
     width: 33%;
-    background-color: #71a74f;
+    background-color: #7CB342;
     display: flex;
     flex-direction: column;
 }
@@ -75,7 +75,7 @@ header .gauche {
 header img {
     border-radius: 110px;
     height: 220px;
-    border: 5px solid #81b75f;
+    border: 5px solid #8BC34A;
 }
 
 /* -------- Header - Section droite -------- */
@@ -96,7 +96,7 @@ header h1 {
 }
 
 .prenom {
-    color: #71a74f;
+    color: #7CB342;
 }
 
 .nom{
@@ -118,7 +118,7 @@ header h2:after {
     display: block;
     content: '';
     width: 80px;
-    border-bottom: 2px solid #71a74f;
+    border-bottom: 2px solid #7CB342;
 }
 
 /* ========== MAIN ========== */
@@ -131,8 +131,8 @@ main {
 /* -------- Main - Section gauche -------- */
 
 .gauche h2 {
-    color: #71a74f;
-    background-color: #493729;
+    color: #7CB342;
+    background-color: #4E342E;
     margin: 2.5rem 0 0 0;
     border: 0;
     padding: 0.5rem 0;
@@ -168,10 +168,10 @@ main {
     font-size: 3rem;
     line-height: 4rem;
     width: 4rem;
-    color: #493729;
+    color: #4E342E;
     text-align: center;
     padding: 0;
-    border: 2px solid #493729;
+    border: 2px solid #4E342E;
     border-radius: 2rem;
 }
 
@@ -186,7 +186,7 @@ main .droite {
 }
 
 .fas {
-    color: #71a74f;
+    color: #7CB342;
     font-size: 2.2rem;
     padding-right: 2rem;
     vertical-align: middle;
@@ -205,13 +205,13 @@ main .droite {
 .periode .far {
     font-size: 1rem;
     padding-right: 1rem;
-    color: #71a74f;
+    color: #7CB342;
 }
 
 .periode .fas {
     font-size: 0.5rem;
     padding: 0 1.25rem 0 0.25rem;
-    color: #71a74f;
+    color: #7CB342;
 }
 
 .droite .tab {
